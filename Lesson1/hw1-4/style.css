@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    display: block;
+    width: 320px;
+    padding: 35px 20px;
+    margin: 0 auto;
+    background-color: #eceaea;
+}
+
+.title{
+    margin-bottom: 15px;
+}
+
+.player-one,
+.player-two{
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    background-color: gainsboro;
+}
+
+.player-one{
+    display: inline-block;
+}
+
+.player-one--color,
+.player-two--color{
+    color: darkred;
+}
+
+.player-two{
+    display: inline-block;
+}
+
+
