@@ -1,0 +1,178 @@
+:root{
+    --main-color-light: #fbfbfb;
+    --main-color-dark: #151419;
+    --color-accent: #f56e0f;
+
+    --color-gluon-grey: #1b1b1e;
+    --color-slate-grey: #262626;
+    --color-dusty-grey: #878787;
+
+
+    --main-color-gray-60: #98989A;
+}
+
+
+a{
+    color: inherit;
+
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: lightskyblue;
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--main-color-light);
+    background-color: var(--main-color-dark);
+
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.header__container{
+    background-color: yellow;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+
+}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/*Film*/
+.film{
+    margin-bottom: 50px;
+}
+.film__container{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.film__content{
+    /*max-width: 500px;*/
+    padding: 200px 100px;
+
+
+}
+
+.film__title{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+
+}
+
+.film__text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.film__link{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    transition: 0.5s;
+}
+
+.film__link:hover{
+    background-color: transparent;
+    border: 1px solid var(--color-accent);
+    transition: 0.5s;
+
+}
+
+
+
+
+/*Cards*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Card*/
+.card{
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+
+.card__link{
+
+}
+
+.card__img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card__title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.card__text{
+
+    font-size: 18px;
+    line-height: 150%;
+
+}

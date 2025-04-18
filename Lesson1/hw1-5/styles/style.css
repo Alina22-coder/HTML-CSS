@@ -1,0 +1,231 @@
+:root{
+    --main-color-light: #fbfbfb;
+    --main-color-dark: #151419;
+    --color-accent: #f56e0f;
+
+    --color-gluon-grey: #1b1b1e;
+    --color-slate-grey: #262626;
+    --color-dusty-grey: #878787;
+
+
+    --main-color-gray-60: #98989A;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    transition: 0.5s;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--color-accent);
+    transition: 0.5s;
+
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--main-color-light);
+    background-color: var(--main-color-dark);
+
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.header__container{
+   border-bottom: 1px solid var(--color-slate-grey);
+    opacity: 100%;
+
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+
+}
+
+.header__nav{
+    padding: 20px 10px;
+}
+
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+}
+.header__link{
+    font-weight: 400;
+    padding: 10px 15px ;
+    transition: color .3s;
+}
+
+.header__link:hover{
+    color: var(--color-accent);
+
+}
+
+/*Film*/
+.film{
+    margin-bottom: 50px;
+}
+.film__container{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.film__content{
+    width: 60%;
+    padding: 200px 100px;
+
+
+}
+
+.film__title{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+
+}
+
+.film__text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.film__link{
+
+}
+
+.film__link:hover{
+
+
+}
+
+/*Actors*/
+.actors{
+    margin-bottom: 50px;
+}
+
+.actors__container{
+
+}
+
+.actors__title{
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 20px;
+
+}
+
+
+/*Cards*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Card*/
+.card{
+    background-color: var(--main-color-light);
+    max-width: 300px;
+    border-radius: 10px;
+
+}
+
+.card__link{
+
+}
+
+.card__img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card__title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.card__text{
+
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+/*Banner*/
+.banner{
+}
