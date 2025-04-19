@@ -6,24 +6,25 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
-<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
-<!--    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">-->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
 </head>
 <body>
 <header class="header">
   <div class="container header__container">
       <div class="header__content">
-          <a class="header__link" href="/">
+          <a class="header__link" href="#">
               <img class="header__img" src="images/logo-batman.svg" width="70" height="70" alt="Logo">
           </a>
           <nav class="header__nav">
@@ -33,15 +34,14 @@
                           Головна
                       </a>
                   </li>
-
                   <li class="header__list">
-                      <a class="header__link" href="#primaryActors">
-                          Актори
+                      <a class="header__link" href="#aboutFilm">
+                          Сюжет
                       </a>
                   </li>
                   <li class="header__list">
-                      <a class="header__link" href="/">
-                          Сюжет
+                      <a class="header__link" href="#primaryActors">
+                          Актори
                       </a>
                   </li>
                   <li class="header__list">
@@ -64,7 +64,6 @@
       </div>
 
   </div>
-
 </header>
 <main>
     <section class="film">
@@ -74,196 +73,189 @@
                     <p class="film__text">the</p>
                     <h1 class="film__title">batman</h1>
                 </div>
-                <div class="film__link-film">
+                <div class="film__link-film link">
                   <a class="film__link" href="https://uakino.me/filmy/genre-action/394-betmen.html" target="_blank">Дивитись</a>
                 </div>
 
             </div>
         </div>
     </section>
-    <section class="actors" id="primaryActors">
-        <div class="container actors__container">
-            <h2 class="actors__title">Акторський склад</h2>
-            <div class="cards">
-
-                <div class="card">
-                      <div class="card__img-container">
-                          <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
-                      </div>
-                    <div class="card__content">
-                        <p class="card__title">Майкл Кітон</p>
-                        <p class="card__text">Бетмен Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, adipisci aliquid commodi consequuntur cum delectus
-                            dicta doloribus eos excepturi, facere impedit itaque iure laudantium minima modi placeat quidem reiciendis sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorem explicabo incidunt laudantium perspiciatis praesentium quas voluptatum. Consequuntur doloremque ea minus recusandae saepe. At deleniti dolorem impedit porro repellendus, voluptatibus.  </p>
+    <section class="about" id="aboutFilm">
+        <div class="container about__container">
+            <h2 class="about__title">
+                Сюжет фільму "Бетмен" (1989): Боротьба темного лицаря проти хаосу Джокера
+            </h2>
+            <div class="about__items">
+                <div class="about__content">
+                    <img class="about__img" src="images/batman-1-2.jpeg" alt="" >
+                    <div class="about__item">
+                        <p class="about__text">
+                            Фільм "Бетмен" 1989 року режисера Тіма Бертона змальовує історію Брюса Вейна, який після свідчення вбивства своїх батьків росте зі спрагою помсти та правосуддя. Він приймає образ темного лицаря, щоб боротися зі злочинністю у Готем-Сіті, особливо проти відьомки Джокера, безжального злочинця, який захоплює місто своїми відьомськими планами.
+                        </p>
                     </div>
                 </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jack_Nicholson_2002.jpg/640px-Jack_Nicholson_2002.jpg" alt="Фото Джек Ніколсон">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Джек Ніколсон</p>
-                        <p class="card__text">Джокер</p>
+                <div class="about__content">
+                    <div class="about__item">
+                        <p class="about__text">
+                            У цьому нелегкому бою Бетмен змушений зіткнутися зі своїми власними темними демонами і врешті-решт вирушає на фінальну конфронтацію з Джокером на даху катедрального будинку Готем-Сіті. Фільм підкреслює не лише боротьбу добра проти зла, а й внутрішній пошук істинного сенсу справедливості в середовищі злочинності та корупції.
+                        </p>
                     </div>
+                    <img class="about__img" src="images/batman-1-1.jpeg" alt="" >
                 </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://s9.vcdn.biz/static/f/2317708791/image.jpg" alt="Фото Біллі Ді Вільямс
-">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Біллі Ді Вільямс</p>
-                        <p class="card__text">Дволикий</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img"
-                             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtFTME9R4ToQwyLOoTpnrQlrK6_1ktGj3h8nkIzn-aPYOIKGhTFxmu-D-DZJci8veNn6uFtNJC_DGfpy0UmeHNGg" alt="Фото Кім Бейсінгер">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Кім Бейсінгер</p>
-                        <p class="card__text">Вікі Вейл</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://static.wikia.nocookie.net/rustarwars/images/1/16/Michael_Gough.jpg/revision/latest?cb=20221203150700" alt="Фото Майкл Гоф">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Майкл Гоф</p>
-                        <p class="card__text">Альфред Пенніворт</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://staticeu.sweet.tv/images/cache/person_profiles/BDHJAAYSAJSW4IAD/51278-pet-hingl.jpg" alt="Фото Пет Хінгл">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Пет Хінгл</p>
-                        <p class="card__text">Джеймс Гордон</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jack_Palance_1975.JPG" alt="Фото Джек Пелансн">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Джек Пеланс</p>
-                        <p class="card__text">Карл Гріссом</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpneOFU0P0Rp5urFAYLOz0eQQ3mFInfVJcg&s" alt="Фото Роберт Вул">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Роберт Вул</p>
-                        <p class="card__text">Олександр Нокс</p>
-                    </div>
-                </div>
-
-
-
-
-
-
-                <div class="card">
-                    <div class="card__img-container">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
-                    </div>
-                    <div class="card__content">
-                        <p class="card__title">Майкл Кітон</p>
-                        <p class="card__text">Бетмен</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jack_Nicholson_2002.jpg/640px-Jack_Nicholson_2002.jpg" alt="Фото Джек Ніколсон">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Джек Ніколсон</p>
-                        <p class="card__text">Джокер</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://s9.vcdn.biz/static/f/2317708791/image.jpg" alt="Фото Біллі Ді Вільямс
-">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Біллі Ді Вільямс</p>
-                        <p class="card__text">Дволикий</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img"
-                             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtFTME9R4ToQwyLOoTpnrQlrK6_1ktGj3h8nkIzn-aPYOIKGhTFxmu-D-DZJci8veNn6uFtNJC_DGfpy0UmeHNGg" alt="Фото Кім Бейсінгер">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Кім Бейсінгер</p>
-                        <p class="card__text">Вікі Вейл</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://static.wikia.nocookie.net/rustarwars/images/1/16/Michael_Gough.jpg/revision/latest?cb=20221203150700" alt="Фото Майкл Гоф">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Майкл Гоф</p>
-                        <p class="card__text">Альфред Пенніворт</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://staticeu.sweet.tv/images/cache/person_profiles/BDHJAAYSAJSW4IAD/51278-pet-hingl.jpg" alt="Фото Пет Хінгл">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Пет Хінгл</p>
-                        <p class="card__text">Джеймс Гордон</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jack_Palance_1975.JPG" alt="Фото Джек Пелансн">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Джек Пеланс</p>
-                        <p class="card__text">Карл Гріссом</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpneOFU0P0Rp5urFAYLOz0eQQ3mFInfVJcg&s" alt="Фото Роберт Вул">
-                    </a>
-                    <div class="card__content">
-                        <p class="card__title">Роберт Вул</p>
-                        <p class="card__text">Олександр Нокс</p>
-                    </div>
-                </div>
-
-
-
-
             </div>
         </div>
     </section>
-    <section class="banner">
-        <div class="container">
+    <section class="actors" id="primaryActors">
+        <div class="container actors__container">
+            <div class="actors__items">
+             <h2 class="actors__title">Акторський склад фільму "Бетмен" (1989)
+             </h2>
+             <p class="actors__inform">
+                 Дізнайтесь більше про акторів, які зробили фільм «Бетмен» (1989) культовим. Кожен із них — легенда зі своєю унікальною історією.
+             </p>
+         </div>
+            <div class="cards">
+
+                <div class="card">
+                      <div class="card__container-img">
+                          <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                      </div>
+                      <div class="card__content">
+                          <div class="card__content-item">
+                              <p class="card__title">Майкл Кітон</p>
+                              <p class="card__text">Бетмен</p>
+                          </div>
+                          <a class="card__link link" href="/">Детальніше
+                              <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                      </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jack_Nicholson_2002.jpg/640px-Jack_Nicholson_2002.jpg" alt="Фото Джек Ніколсон">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Джек Ніколсон</p>
+                            <p class="card__text">Джокер</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://s9.vcdn.biz/static/f/2317708791/image.jpg" alt="Фото Біллі Ді Вільямс">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Біллі Ді Вільямс</p>
+                            <p class="card__text">Дволикий</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtFTME9R4ToQwyLOoTpnrQlrK6_1ktGj3h8nkIzn-aPYOIKGhTFxmu-D-DZJci8veNn6uFtNJC_DGfpy0UmeHNGg" alt="Фото Кім Бейсінгер">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Кім Бейсінгер</p>
+                            <p class="card__text">Вікі Вейл</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/ru/1/16/Michael_Gough.jpg" alt="Фото Майкл Гоф">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Майкл Гоф</p>
+                            <p class="card__text">Альфред Пенніворт</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://staticeu.sweet.tv/images/cache/person_profiles/BDHJAAYSAJSW4IAD/51278-pet-hingl.jpg" alt="Фото Пет Хінгл">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Пет Хінгл</p>
+                            <p class="card__text">Джеймс Гордон</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://cdn.vogue.ua/i/original/uploads/image/1a5/209/ce3/gettyimages_143013682_60e6ce32091a5.jpeg.webp"
+                             alt="Фото Джеррі Холл">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Джеррі Холл</p>
+                            <p class="card__text">Алісія Гант</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://www.acmodasi.com.ua/amdb/images/persons/w500/6/8/david-baxt-45893.webp" alt="Фото Девід Бакст">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Девід Бакст</p>
+                            <p class="card__text">Томас Вейн</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__container-img">
+                        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpneOFU0P0Rp5urFAYLOz0eQQ3mFInfVJcg&s" alt="Фото Роберт Вул">
+                    </div>
+                    <div class="card__content">
+                        <div class="card__content-item">
+                            <p class="card__title">Роберт Вул</p>
+                            <p class="card__text">Олександр Нокс</p>
+                        </div>
+                        <a class="card__link link" href="/">Детальніше
+                            <img class="card__arrow" src="images/arrow.svg" alt="Arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trailer">
+        <div class="container trailer__container">
+            <div class="trailer__items">
+                <h2 class="trailer__title">
+                    Офіційний трейлер легендарного Бетмена
+                </h2>
+                <p class="trailer__text">
+                    Темрява накриває Готем-Сіті, але з'являється надія — загадковий месник у чорному костюмі протистоїть злочинності. Коли новий лиходій на ім’я Джокер сіє хаос і смерть, лише Бетмен здатен зупинити його. Стильний, готичний та емоційно глибокий "Бетмен" Тіма Бертона — культовий супергеройський фільм, який назавжди змінив вигляд жанру.
+
+                </p>
+            </div>
             <video src="images/batman-trailer.mp4" controls muted loop id="video" width="100%" height="auto" poster="images/batman-bg-trailer.webp">
             </video>
         </div>
@@ -271,9 +263,12 @@
     <section class="reviews" id="createReviews">
         <div class="container reviews__container">
             <div class="reviews__title">
-                <h3 class="reviews__title-text">
+                <h2 class="reviews__title-text">
                     Враження тих, хто вже подивився
-                </h3>
+                </h2>
+                <p class="reviews__inform">
+                    Фільм «Бетмен» 1989 року вже давно став класикою. Глядачі по-різному сприймають його атмосферу, персонажів і стиль. У цій добірці — різні думки про фільм, що залишив слід у кінематографі.
+                </p>
             </div>
             <div class="reviews__info">
                 <div class="reviwes__content">
@@ -288,19 +283,19 @@
                         <div class="reviews__star">
                             <ul class="reviews__item">
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                             </ul>
                         </div class="reviews__comment">
@@ -322,58 +317,24 @@
                         <div class="reviews__star">
                             <ul class="reviews__item">
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-half.svg" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-border.svg" alt="Reviews">
                                 </li>
                             </ul>
                         </div class="reviews__comment">
                         <p class="reviews__comment-text">
                             Один з найкращих фільмів про супергероїв того часу. Можливо, сюжет не такий динамічний, як у сучасних фільмах, але харизма акторів усе перекриває.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="reviwes__content">
-                    <div class="reviews__profile">
-                        <img class="reviews__profile-img" src="images/reviews-3.svg" width="60" height="60" alt="Photo profile">
-                        <div>
-                            <p class="reviews__profile-title">Аліна Ковальчук</p>
-                            <p class="reviews__profile-text">Kyiv, Ukraine</p>
-                        </div>
-                    </div>
-                    <div class="reviews__star-text">
-                        <div class="reviews__star">
-                            <ul class="reviews__item">
-                                <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
-                                </li>
-                                <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
-                                </li>
-                                <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
-                                </li>
-                                <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
-                                </li>
-                                <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
-                                </li>
-                            </ul>
-                        </div class="reviews__comment">
-                        <p class="reviews__comment-text">
-                            Ностальгія! Я виросла на цьому Бетмені. Класика, яку хочеться передивлятися знову. Джокер у виконанні Ніколсона — до мурах!
                         </p>
                     </div>
                 </div>
@@ -390,24 +351,58 @@
                         <div class="reviews__star">
                             <ul class="reviews__item">
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-border.svg" alt="Reviews">
                                 </li>
                             </ul>
                         </div class="reviews__comment">
                         <p class="reviews__comment-text">
                             Фільм, який поклав початок темнішому, більш серйозному образу Бетмена. Майкл Кітон вразив, а Джек Ніколсон у ролі Джокера — це просто шедевр. Саундтрек Прінса — окрема магія!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-3.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Аліна Ковальчук</p>
+                            <p class="reviews__profile-text">Kyiv, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Ностальгія! Я виросла на цьому Бетмені. Класика, яку хочеться передивлятися знову. Джокер у виконанні Ніколсона — до мурах!
                         </p>
                     </div>
                 </div>
@@ -424,19 +419,19 @@
                         <div class="reviews__star">
                             <ul class="reviews__item">
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-half.svg" alt="Reviews">
                                 </li>
                             </ul>
                         </div class="reviews__comment">
@@ -458,19 +453,19 @@
                         <div class="reviews__star">
                             <ul class="reviews__item">
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                                 <li class="reviews__list--active">
-                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                    <img class="reviews__img" src="images/star-active.png" alt="Reviews">
                                 </li>
                             </ul>
                         </div class="reviews__comment">
@@ -483,6 +478,70 @@
         </div>
     </section>
 </main>
-<footer class="footer"></footer>
+<footer class="footer">
+    <div class="container header__container">
+        <div class="header__content">
+            <a class="header__link" href="#">
+                <img class="header__img" src="images/logo-batman.svg" width="70" height="70" alt="Logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__item">
+                    <li class="header__list">
+                        <a class="header__link active" href="/">
+                            Головна
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#aboutFilm">
+                            Сюжет
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#primaryActors">
+                            Актори
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="/">
+                            Режисер
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="/">
+                            Галерея
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#createReviews">
+                            Відгуки
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__social">
+                <ul class="footer__social-item">
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="https://x.com/batman89returns" target="_blank">
+                            <img class="footer__social-img" src="images/twitter.svg" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="https://www.instagram.com/burtonsbatman1989/" target="_blank">
+                            <img class="footer__social-img" src="images/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="footer__social-list">
+                        <a class="footer__social-link" href="https://www.facebook.com/Batman89fans/" target="_blank">
+                            <img class="footer__social-img" src="images/facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
 </body>
 </html>
