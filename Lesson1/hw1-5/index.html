@@ -9,23 +9,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <header class="header">
   <div class="container header__container">
       <div class="header__content">
           <a class="header__link" href="/">
-              <img class="header__img" src="images/logo.jpg" alt="Logo">
+              <img class="header__img" src="images/logo-batman.svg" width="70" height="70" alt="Logo">
           </a>
           <nav class="header__nav">
               <ul class="header__item">
                   <li class="header__list">
-                      <a class="header__link" href="/">
-                          Про фільм
+                      <a class="header__link active" href="/">
+                          Головна
                       </a>
                   </li>
+
                   <li class="header__list">
-                      <a class="header__link" href="/">
+                      <a class="header__link" href="#primaryActors">
                           Актори
                       </a>
                   </li>
@@ -44,9 +54,13 @@
                           Галерея
                       </a>
                   </li>
+                  <li class="header__list">
+                      <a class="header__link" href="#createReviews">
+                          Відгуки
+                      </a>
+                  </li>
               </ul>
           </nav>
-          <button type="button">Button</button>
       </div>
 
   </div>
@@ -54,101 +68,419 @@
 </header>
 <main>
     <section class="film">
-        <div class="container film__container">
-            <div class="film__content">
-                <h1 class="film__title">Бетмен </h1>
-                <p class="film__text">«Бетмен» (англ. Batman) — американський фільм Тіма Бертона 1989 року, що базується на однойменній серії коміксів про супергероя
-                    Бетмена.
-                </p>
-                <a class="btn film__link" href="https://uakino.me/filmy/genre-action/394-betmen.html" target="_blank">Дивитись</a>
+        <div class=" film__container ">
+            <div class="film__content overlay">
+                <div class="film__item">
+                    <p class="film__text">the</p>
+                    <h1 class="film__title">batman</h1>
+                </div>
+                <div class="film__link-film">
+                  <a class="film__link" href="https://uakino.me/filmy/genre-action/394-betmen.html" target="_blank">Дивитись</a>
+                </div>
+
             </div>
         </div>
     </section>
-
-    <section class="actors">
+    <section class="actors" id="primaryActors">
         <div class="container actors__container">
-            <h2 class="actors__title">Акторський слад</h2>
-<!--            <a href="/">Показати більше</a>-->
+            <h2 class="actors__title">Акторський склад</h2>
             <div class="cards">
+
                 <div class="card">
-                    <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
-                    </a>
+                      <div class="card__img-container">
+                          <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                      </div>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
-                        <a class="btn card__link" href="#">Дізнатися більше </a>
+                        <p class="card__title">Майкл Кітон</p>
+                        <p class="card__text">Бетмен Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, adipisci aliquid commodi consequuntur cum delectus
+                            dicta doloribus eos excepturi, facere impedit itaque iure laudantium minima modi placeat quidem reiciendis sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorem explicabo incidunt laudantium perspiciatis praesentium quas voluptatum. Consequuntur doloremque ea minus recusandae saepe. At deleniti dolorem impedit porro repellendus, voluptatibus.  </p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jack_Nicholson_2002.jpg/640px-Jack_Nicholson_2002.jpg" alt="Фото Джек Ніколсон">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
+                        <p class="card__title">Джек Ніколсон</p>
+                        <p class="card__text">Джокер</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://s9.vcdn.biz/static/f/2317708791/image.jpg" alt="Фото Біллі Ді Вільямс
+">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Біллі Ді Вільямс</p>
+                        <p class="card__text">Дволикий</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img"
+                             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtFTME9R4ToQwyLOoTpnrQlrK6_1ktGj3h8nkIzn-aPYOIKGhTFxmu-D-DZJci8veNn6uFtNJC_DGfpy0UmeHNGg" alt="Фото Кім Бейсінгер">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Кім Бейсінгер</p>
+                        <p class="card__text">Вікі Вейл</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://static.wikia.nocookie.net/rustarwars/images/1/16/Michael_Gough.jpg/revision/latest?cb=20221203150700" alt="Фото Майкл Гоф">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Майкл Гоф</p>
+                        <p class="card__text">Альфред Пенніворт</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://staticeu.sweet.tv/images/cache/person_profiles/BDHJAAYSAJSW4IAD/51278-pet-hingl.jpg" alt="Фото Пет Хінгл">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Пет Хінгл</p>
+                        <p class="card__text">Джеймс Гордон</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jack_Palance_1975.JPG" alt="Фото Джек Пелансн">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Джек Пеланс</p>
+                        <p class="card__text">Карл Гріссом</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpneOFU0P0Rp5urFAYLOz0eQQ3mFInfVJcg&s" alt="Фото Роберт Вул">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Роберт Вул</p>
+                        <p class="card__text">Олександр Нокс</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="card">
+                    <div class="card__img-container">
+                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Майкл Кітон</p>
                         <p class="card__text">Бетмен</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jack_Nicholson_2002.jpg/640px-Jack_Nicholson_2002.jpg" alt="Фото Джек Ніколсон">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Джек Ніколсон</p>
+                        <p class="card__text">Джокер</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://s9.vcdn.biz/static/f/2317708791/image.jpg" alt="Фото Біллі Ді Вільямс
+">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Біллі Ді Вільямс</p>
+                        <p class="card__text">Дволикий</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img"
+                             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQtFTME9R4ToQwyLOoTpnrQlrK6_1ktGj3h8nkIzn-aPYOIKGhTFxmu-D-DZJci8veNn6uFtNJC_DGfpy0UmeHNGg" alt="Фото Кім Бейсінгер">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Кім Бейсінгер</p>
+                        <p class="card__text">Вікі Вейл</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://static.wikia.nocookie.net/rustarwars/images/1/16/Michael_Gough.jpg/revision/latest?cb=20221203150700" alt="Фото Майкл Гоф">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Майкл Гоф</p>
+                        <p class="card__text">Альфред Пенніворт</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://staticeu.sweet.tv/images/cache/person_profiles/BDHJAAYSAJSW4IAD/51278-pet-hingl.jpg" alt="Фото Пет Хінгл">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Пет Хінгл</p>
+                        <p class="card__text">Джеймс Гордон</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <a class="card__link" href="/">
-                        <img class="card__img" src="https://icdn.lenta.ru/images/2022/08/03/09/20220803092122698/wide_4_3_be8c6128a9dc1c6bc6848e35d70f383f.jpg" alt="Фото Майкл Китон">
+                        <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Jack_Palance_1975.JPG" alt="Фото Джек Пелансн">
                     </a>
                     <div class="card__content">
-                        <p class="card__title">Майкл Китон</p>
-                        <p class="card__text">Бетмен</p>
+                        <p class="card__title">Джек Пеланс</p>
+                        <p class="card__text">Карл Гріссом</p>
                     </div>
                 </div>
+
+                <div class="card">
+                    <a class="card__link" href="/">
+                        <img class="card__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpneOFU0P0Rp5urFAYLOz0eQQ3mFInfVJcg&s" alt="Фото Роберт Вул">
+                    </a>
+                    <div class="card__content">
+                        <p class="card__title">Роберт Вул</p>
+                        <p class="card__text">Олександр Нокс</p>
+                    </div>
+                </div>
+
+
+
+
             </div>
         </div>
     </section>
     <section class="banner">
-        <img src="https://s4.vcdn.biz/static/f/8927095351/29.jpg" alt="">
+        <div class="container">
+            <video src="images/batman-trailer.mp4" controls muted loop id="video" width="100%" height="auto" poster="images/batman-bg-trailer.webp">
+            </video>
+        </div>
+    </section>
+    <section class="reviews" id="createReviews">
+        <div class="container reviews__container">
+            <div class="reviews__title">
+                <h3 class="reviews__title-text">
+                    Враження тих, хто вже подивився
+                </h3>
+            </div>
+            <div class="reviews__info">
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-1.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Олена Мельник</p>
+                            <p class="reviews__profile-text">Lviv, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Хороша, атмосферна екранізація коміксу. Фільм вийшов зовсім інший по духу і візуалу, ніж Бетмен Нолана. Але Джек Ніколсон – прямо створений для ролі Джокера, відіграв просто шикарно.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-2.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Андрій Бондар</p>
+                            <p class="reviews__profile-text">Kharkiv, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Один з найкращих фільмів про супергероїв того часу. Можливо, сюжет не такий динамічний, як у сучасних фільмах, але харизма акторів усе перекриває.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-3.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Аліна Ковальчук</p>
+                            <p class="reviews__profile-text">Kyiv, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Ностальгія! Я виросла на цьому Бетмені. Класика, яку хочеться передивлятися знову. Джокер у виконанні Ніколсона — до мурах!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-5.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Сергій Литвиненко</p>
+                            <p class="reviews__profile-text">Dnipro, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Фільм, який поклав початок темнішому, більш серйозному образу Бетмена. Майкл Кітон вразив, а Джек Ніколсон у ролі Джокера — це просто шедевр. Саундтрек Прінса — окрема магія!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-4.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Катерина Шевченко</p>
+                            <p class="reviews__profile-text">Odesa, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Дуже стильне кіно з елементами нуару. Атмосфера Ґотема просто казкова, а декорації й костюми — на висоті. Є свої наївні моменти, але для 1989 року це було щось!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reviwes__content">
+                    <div class="reviews__profile">
+                        <img class="reviews__profile-img" src="images/reviews-6.svg" width="60" height="60" alt="Photo profile">
+                        <div>
+                            <p class="reviews__profile-title">Дмитро Горобець</p>
+                            <p class="reviews__profile-text">Ivano-Frankivsk, Ukraine</p>
+                        </div>
+                    </div>
+                    <div class="reviews__star-text">
+                        <div class="reviews__star">
+                            <ul class="reviews__item">
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                                <li class="reviews__list--active">
+                                    <img class="reviews__img" src="images/star.svg" alt="Reviews">
+                                </li>
+                            </ul>
+                        </div class="reviews__comment">
+                        <p class="reviews__comment-text">
+                            Тим Бертон створив щось унікальне. Це не просто фільм про супергероя — це арт! Темно, красиво й незабутньо.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 <footer class="footer"></footer>
