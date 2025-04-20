@@ -39,6 +39,10 @@ a{
 
 }
 
+.span--accent{
+    color: var(--color-accent);
+}
+
 /*Стилізація*/
 h1{
     font-size: 56px;
@@ -304,7 +308,7 @@ body {
 }
 
 .actors__inform{
-    text-align: justify;
+    text-align: center;
 }
 
 /*Cards*/
@@ -417,7 +421,7 @@ body {
 }
 
 .trailer__text{
-    text-align: justify;
+    text-align: center;
 }
 
 .trailer__video{
@@ -493,7 +497,7 @@ body {
 }
 
 .reviews__inform{
-    text-align: justify;
+    text-align: center;
 
 }
 
