@@ -31,7 +31,7 @@ body{
     width: 100px;
     height: 100px;
     background-color: #fb4949;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .figures__item:hover{
