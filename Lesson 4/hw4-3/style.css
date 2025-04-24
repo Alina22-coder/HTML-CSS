@@ -14,12 +14,12 @@ aside{
     background: #C0BDBD;
 }
 
-div{
+section{
     display: flex;
     flex-direction: column;
 }
 
-section{
+div{
     width: 46vw;
 }
 

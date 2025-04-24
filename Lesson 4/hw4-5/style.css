@@ -1,0 +1,39 @@
+header{
+    height: 5vh;
+    background-color: #D9D9D9;
+}
+
+.section__top{
+    display: flex;
+}
+
+.section__item{
+    width: 60vw;
+    height: 74vh;
+    background-color: #A4A4A4;
+}
+
+.section__items{
+    width: 40vw;
+}
+
+.sectionOne{
+    height: 40vh;
+    background-color: #7F7A7A;
+
+}
+
+.sectionTwo{
+    height: 34vh;
+    background-color: #615050;
+}
+
+.section__bottom{
+    height: 9vh;
+    background-color: #D9D9D9;
+}
+
+footer{
+    height: 12vh;
+    background-color: #AFA9A9;
+}

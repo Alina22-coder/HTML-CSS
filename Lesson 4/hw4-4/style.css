@@ -5,7 +5,10 @@ body{
     color: #000;
 }
 
-header, section, aside, footer{
+header,
+.section__content div,
+.aside__content div,
+footer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +24,7 @@ main{
     color: #fff;
 }
 
-section{
+.section__content div{
     width: 73vw;
     height: 20vh;
  }
@@ -38,7 +41,7 @@ section{
     background-color: #441818;
 }
 
-aside{
+.aside__content div{
     width: 27vw;
     height: 30vh;
 }
