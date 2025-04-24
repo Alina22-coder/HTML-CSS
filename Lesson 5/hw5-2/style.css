@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --main-color-dark: #1E1E1E;
+    --main-color-light: #E9E3DC;
+    --color-accent: #B3A0CD;
+    --color-bg: #D1EF53;
+
+    --color-light: #D9D9D9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid yellow;
+}
+
+body{
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%;
+    color: var(--main-color-light);
+    background-color: var(--main-color-dark);
+
+
+    /*font-family: "Inter", sans-serif;*/
+}
+
+/*============== Header ====================*/
+.header{
+    margin-bottom: 74px;
+}
+
+.header__container{
+    border: 1px solid orange;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 36px;
+
+}
+
+.header__item{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+
+.header__link{
+    text-transform: uppercase;
+}
+
+.header__link-btn{
+    display: block;
+    padding: 21px 26px;
+    text-transform: uppercase;
+    color: var(--main-color-dark);
+    background-color: var(--color-accent);
+}
+
+/*===================Hero================================*/
+.hero{
+    margin-bottom: 32px;
+
+}
+
+.hero__container{
+
+}
+
+.hero__title{
+    font-size: 107px;
+    text-align: center;
+    line-height: 88.896%;
+
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+
+
+
+}
+
+.hero__images{
+    margin: 0 auto;
+
+}
+
+.hero__img{
+
+}
