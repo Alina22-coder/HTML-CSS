@@ -17,8 +17,9 @@ h2{
 }
 
 .info__item{
+    height: 50vh;
     text-align: center;
-    padding: 50px 50px 100px;
+    padding: 100px 50px 100px;
 }
 
 .info__item--pink{
