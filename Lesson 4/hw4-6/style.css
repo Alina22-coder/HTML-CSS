@@ -1,0 +1,40 @@
+header, footer{
+    background-color: #D9D9D9;
+}
+
+header{
+    height: 5vh;
+}
+
+section{
+    display: flex;
+    height: 85vh;
+}
+
+.sectionOne{
+    width: 29vw;
+    background-color: #A4A4A4;
+}
+
+.sectionTwo{
+    width: 30vw;
+    background-color: #C1C1C1;
+}
+
+.section__items{
+    width: 41vw;
+}
+
+.sectionThree{
+    height: 43vh;
+    background-color: #7F7A7A;
+}
+
+.sectionFour{
+    height: 42vh;
+    background-color: #6B6161;
+}
+
+footer{
+    height: 10vh;
+}
