@@ -1,0 +1,57 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #000;
+}
+
+header, section, aside, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 20vh;
+    background-color: #8D8484;
+}
+
+main{
+    display: flex;
+    color: #fff;
+}
+
+section{
+    width: 73vw;
+    height: 20vh;
+ }
+
+.sectionOne{
+    background-color: #776969;
+}
+
+.sectionTwo{
+    background-color: #643030;
+}
+
+.sectionThree{
+    background-color: #441818;
+}
+
+aside{
+    width: 27vw;
+    height: 30vh;
+}
+
+.asideOne{
+    background-color: #937575;
+}
+
+.asideTwo{
+    background-color: #644C4C;
+}
+
+footer{
+    height: 20vh;
+    background-color: #BDBDBD;
+}
