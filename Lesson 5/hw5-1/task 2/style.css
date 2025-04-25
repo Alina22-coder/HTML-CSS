@@ -1,0 +1,578 @@
+body{
+    background-color: #1b1b1e;
+    color: white;
+}
+
+.snake{
+    height: 100vh;
+    border: 1px solid yellow;
+}
+
+.container{
+    max-width: 1230px;
+    height: 100vh;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.snake__container{
+    width: 300px;
+    height: 300px;
+    margin: 25vh auto;
+    border: 1px solid blue;
+
+}
+
+.snake__item{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+    position: relative;
+
+
+
+}
+
+.snake__game{
+    z-index: 10;
+
+
+    width: 10px;
+    height: 10px;
+    background-color: #90ca90;
+
+    animation: snakeGame 10s linear infinite;
+}
+
+div .snake__game.hidden {
+    background-color: pink;
+    display: none;
+
+}
+div .snake__apple.hidden{
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000;
+    border-radius: 50%;
+
+    position: absolute;
+
+    animation: snakeApple 15s linear infinite;
+}
+
+
+.one{
+    animation: snakeGameOne 15s linear infinite;
+}
+
+.two{
+    animation: snakeGameTwo 15s linear infinite;
+
+
+}
+
+.three{
+    animation: snakeGameThree 15s  linear infinite;
+
+}
+.four{
+    animation: snakeGameFour 15s  linear infinite;
+
+}
+
+.five{
+    animation: snakeGameFive 15s  linear infinite;
+}
+
+
+
+/*================================SNAKE=================================*/
+
+@keyframes snakeGameOne {
+    0%{
+        translate: 0;
+    }
+    1%{
+        translate: 10px 0;
+    }
+    2%{
+        translate: 20px 0;
+    }
+    3%{
+        translate: 30px 0;
+    }
+    4%{
+        translate: 40px 0;
+    }
+    5%{
+        translate: 50px 0;
+    }
+    6%{
+        translate: 50px 10px;
+    }
+    7%{
+        translate: 50px 20px;
+    }
+    8%{
+        translate: 50px 30px;
+    }
+    9%{
+        translate: 50px 40px;
+    }
+    10%{
+        translate: 50px 50px;
+    }
+    11%{
+        translate: 50px 60px;
+    }
+    12%{
+        translate: 50px 70px;
+    }
+    13%{
+        translate: 50px 80px;
+    }
+    14%{
+        translate: 50px 90px;
+    }
+    15%{
+        translate: 50px 100px;
+    }
+    16%{
+        translate: 50px 110px;
+    }
+    17%{
+        translate: 50px 120px;
+    }
+    18%{
+        translate: 50px 130px;
+    }
+    19%{
+        translate: 50px 140px;
+    }
+    20%{
+        translate: 50px 150px;
+    }
+    21%{
+        translate: 60px 150px;
+    }
+    22%{
+        translate: 70px 150px;
+    }
+    23%{
+        translate: 80px 150px;
+    }
+    24%{
+        translate: 90px 150px;
+    }
+    25%{
+        translate: 100px 150px;
+    }
+    26%{
+        translate: 110px 150px;
+    }
+    27%{
+        translate: 120px 150px;
+    }
+    28%{
+        translate: 130px 150px;
+    }
+    29%{
+        translate: 130px 140px;
+    }
+    30%{
+        translate: 130px 130px;
+    }
+    31%{
+        translate: 130px 120px;
+    }
+    32%{
+        translate: 130px 110px;
+    }
+    33%{
+        translate: 130px 100px;
+    }
+    34%{
+        translate: 130px 90px;
+    }
+    35%{
+        translate: 130px 80px;
+    }
+    36%{
+        translate: 130px 70px;
+    }
+    37%{
+        translate: 130px 60px;
+    }
+
+    
+}
+
+@keyframes snakeGameTwo {
+    0%{
+        translate: 0;
+    }
+    1%{
+        translate: 0 -10px;
+    }
+    2%{
+        translate: 10px -10px;
+    }
+    3%{
+        translate: 20px -10px;
+    }
+    4%{
+        translate: 30px -10px;
+    }
+    5%{
+        translate: 40px -10px;
+    }
+    6%{
+        translate: 50px -10px;
+    }
+    7%{
+        translate: 50px 0;
+    }
+    8%{
+        translate: 50px 10px;
+    }
+    9%{
+        translate: 50px 20px;
+    }
+    10%{
+        translate: 50px 30px;
+    }
+    11%{
+        translate: 50px 40px;
+    }
+    12%{
+        translate: 50px 50px;
+    }
+    13%{
+        translate: 50px 60px;
+    }
+    14%{
+        translate: 50px 70px;
+    }
+    15%{
+        translate: 50px 80px;
+    }
+    16%{
+        translate: 50px 90px;
+    }
+    17%{
+        translate: 50px 100px;
+    }
+    18%{
+        translate: 50px 110px;
+    }
+    19%{
+        translate: 50px 120px;
+    }
+    20%{
+        translate: 50px 130px;
+    }
+    21%{
+        translate: 50px 140px;
+    }
+    22%{
+        translate: 60px 140px;
+    }
+    23%{
+        translate: 70px 140px;
+    }
+    24%{
+        translate: 80px 140px;
+    }
+    25%{
+        translate: 90px 140px;
+    }
+    26%{
+        translate: 100px 140px;
+    }
+    27%{
+        translate: 110px 140px;
+    }
+    28%{
+        translate: 120px 140px;
+    }
+    29%{
+        translate: 130px 140px;
+    }
+    30%{
+        translate: 130px 130px;
+    }
+    31%{
+        translate: 130px 120px;
+    }
+    32%{
+        translate: 130px 110px;
+    }
+    33%{
+        translate: 130px 100px;
+    }
+    34%{
+        translate: 130px 90px;
+    }
+    35%{
+        translate: 130px 80px;
+    }
+    36%{
+        translate: 130px 70px;
+    }
+    37%{
+        translate: 130px 60px;
+    }
+    38%{
+    }
+
+}
+
+@keyframes snakeGameThree {
+    0%{
+        translate: 0;
+    }
+    1%{
+        translate: 0 -10px;
+    }
+    2%{
+        translate: 0 -20px;
+    }
+    3%{
+        translate: 10px -20px;
+    }
+    4%{
+        translate: 20px -20px;
+    }
+    5%{
+        translate: 30px -20px;
+    }
+    6%{
+        translate: 40px -20px;
+    }
+    7%{
+        translate: 50px -20px;
+    }
+    8%{
+        translate: 50px -10px;
+
+    }
+    9%{
+        translate: 50px 0;
+
+    }
+    10%{
+        translate: 50px 10px;
+
+    }
+    11%{
+        translate: 50px 20px;
+
+    }
+    12%{
+        translate: 50px 30px;
+    }
+    13%{
+        translate: 50px 40px;
+    }
+    14%{
+        translate: 50px 50px;
+    }
+    15%{
+        translate: 50px 60px;
+    }
+    16%{
+        translate: 50px 70px;
+    }
+    17%{
+        translate: 50px 80px;
+    }
+    18%{
+        translate: 50px 90px;
+    }
+    19%{
+        translate: 50px 100px;
+    }
+    20%{
+        translate: 50px 110px;
+    }
+    21%{
+        translate: 50px 120px;
+    }
+    22%{
+        translate: 50px 130px;
+    }
+    23%{
+        translate: 60px 130px;
+    }
+    24%{
+        translate: 70px 130px;
+    }
+    25%{
+        translate: 80px 130px;
+    }
+    26%{
+        translate: 90px 130px;
+    }
+    27%{
+        translate: 100px 130px;
+    }
+    28%{
+        translate: 110px 130px;
+    }
+    29%{
+        translate: 120px 130px;
+    }
+    30%{
+        translate: 130px 130px;
+    }
+    31%{
+        translate: 130px 120px;
+    }
+    32%{
+        translate: 130px 110px;
+    }
+    33%{
+        translate: 130px 100px;
+    }
+    34%{
+        translate: 130px 90px;
+    }
+    35%{
+        translate: 130px 80px;
+    }
+    36%{
+        translate: 130px 70px;
+    }
+    37%{
+        translate: 130px 60px;
+    }
+}
+
+@keyframes snakeGameFour {
+    0%,16%{
+        translate: 50px 50px;
+        background-color: transparent;
+    }
+    17%{
+        translate: 50px 60px;
+        background-color: #90ca90;
+    }
+    18%{
+        translate: 50px 70px;
+    }
+    19%{
+        translate: 50px 80px;
+    }
+    20%{
+        translate: 50px 90px;
+    }
+    21%{
+        translate: 50px 100px;
+    }
+    22%{
+        translate: 50px 110px;
+    }
+    23%{
+        translate: 50px 120px;
+    }
+    24%{
+        translate: 60px 120px;
+    }
+    25%{
+        translate: 70px 120px;
+    }
+    26%{
+        translate: 80px 120px;
+    }
+    27%{
+        translate: 90px 120px;
+    }
+    28%{
+        translate: 100px 120px;
+    }
+    29%{
+        translate: 110px 120px;
+    }
+    30%{
+        translate: 120px 120px;
+    }
+    31%{
+        translate: 130px 120px;
+    }
+    32%{
+        translate: 130px 110px;
+    }
+    33%{
+        translate: 130px 100px;
+    }
+    34%{
+        translate: 130px 90px;
+    }
+    35%{
+        translate: 130px 80px;
+    }
+    36%{
+        translate: 130px 70px;
+    }
+    37%{
+        translate: 130px 60px;
+    }
+
+}
+
+@keyframes snakeGameFive {
+    0%, 35%{
+        translate: 130px 60px;
+        background-color: transparent;
+    }
+    36%,50%{
+        translate: 130px 60px;
+        background-color: #90ca90;
+    }
+
+}
+
+
+
+/*+++++++++++++++++++++++++APPLE++++++++++++++++++++++++++++++++++++*/
+@keyframes snakeApple {
+    0%, 16%{
+        translate: 50px 70px;
+        background-color: #ff0000;
+    }
+    17%{
+        translate: 50px 70px;
+        background-color: transparent;
+    }
+    19%{
+        translate: 130px 20px;
+        background-color: transparent;
+    }
+    20%, 35% {
+        translate: 130px 20px;
+        background-color: #ff0000;
+    }
+    36%,39%{
+        translate: 130px 20px;
+        background-color: transparent;
+    }
+    40%{
+        translate: 202px 205px;
+        background-color: transparent;
+
+    }
+    41%,100%{
+        translate: 202px 205px;
+
+        background-color: #ff0000;
+
+
+    }
+
+
+
+/*55%,56%,57%,58%,59%,60%,61%,62%,63%,64%,65%,66%,67%,68%,69%,70%,71%,72%,73%,74%,75%,76%,77%,78%,79%,80%,81%,82%,83%,84%,85%,86%,87%,88%,89%,90%,91%,92%,93%,94%,95%,96%,97%,98%,99%,100%*/
+}
+
