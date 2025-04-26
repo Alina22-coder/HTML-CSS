@@ -12,13 +12,13 @@
         <nav class="header__nav">
             <ul class="header__item">
                 <li class="header__list">
-                    <a class="header__link" href="#">About</a>
+                    <a class="header__link" href="#bannerAboutUs">About</a>
                 </li>
                 <li class="header__list">
-                    <a class="header__link" href="#">Menu</a>
+                    <a class="header__link" href="#photoMenu">Menu</a>
                 </li>
                 <li class="header__list">
-                    <a class="header__link-btn" href="#">Order online</a>
+                    <a class="header__link-btn" href="#" target="_blank">Order online</a>
                 </li>
             </ul>
         </nav>
@@ -27,16 +27,50 @@
 <main>
     <section class="hero">
         <div class="container hero__container">
-            <h1 class="hero__title">
-                NEW YORK’S FAVORITE ORGANIC HAMBURGER JOINT
-            </h1>
+            <div class="hero__text">
+                <h1 class="hero__title">
+                    NEW YORK’S FAVORITE ORGANIC HAMBURGER JOINT
+                </h1>
+            </div>
             <div class="hero__images">
                 <img class="hero__img" src="images/burgers.svg" alt="Burgers">
             </div>
         </div>
     </section>
+    <section class="banner" id="bannerAboutUs">
+        <div class="container banner__container">
+            <div class="banner__content">
+                <div class="banner__someText">
+                    <h2 class="banner__title">the burger above all burgers</h2>
+                </div>
+                <div class="banner__item">
+                    <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec ornare neque.</p>
+                    <a class="banner__link" href="#" target="_blank">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="photo" id="photoMenu">
+        <div class="container photo__container">
+            <div class="photo__content">
+                <div class="photo__items">
+                    <img class="photo__img" src="images/menu-1.svg" alt="Photo menu">
+                    <img class="photo__img" src="images/menu-2.svg" alt="Photo menu">
+                </div>
+                <div class="photo__item">
+                    <img class="photo__img" src="images/menu-3.svg" alt="Photo menu">
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-<footer></footer>
-
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__content">
+            <h2 class="footer__title">order online or come visit us today</h2>
+            <button class="footer__btn" type="button">Get Started</button>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
