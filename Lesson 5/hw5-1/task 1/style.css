@@ -1,6 +1,7 @@
 body{
     background-color: #1b1b1e;
 }
+
 .ball{
     padding: 22vh;
 }
@@ -10,7 +11,7 @@ body{
     padding: 0 15px;
     margin: 0 auto;
 }
-/*====================================*/
+
 .ball__container{
     width: 600px;
     height: 400px;
@@ -21,8 +22,6 @@ body{
     border-right: 2px solid #ff9314;
     border-bottom: 2px solid #ffff4e;
 
-
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +31,6 @@ body{
 .ball__game{
     width: 25px;
     height: 25px;
-    /*background-color: blanchedalmond;*/
     border-radius: 50%;
 
     animation: ballGame 10s linear  infinite;
@@ -40,7 +38,6 @@ body{
 
 .ball__line{
     width: 10%;
-    /*border-bottom: 3px solid blanchedalmond;*/
 
     animation: lineGame 10s linear  infinite;
 }
@@ -48,22 +45,17 @@ body{
 
 @keyframes ballGame {
     0%{
-        /*background-color: orange;*/
         background-color: #ff9314;
         translate: 0;
-
     }
 
     5%{
         translate: -287px -200px;
         background-color: #ff9314;
-        /*background-color: blanchedalmond;*/
     }
     5.1%{
         background-color: #ff002d;
     }
-
-
 
     10%{
         translate: -100px -374px;
@@ -72,8 +64,6 @@ body{
     10.1%{
         background-color: #6060ff;
     }
-
-
 
     15%{
         translate: 20px 0;
@@ -87,7 +77,6 @@ body{
         background-color: #ff9314;
     }
 
-
     25%{
         translate: 200px -375px;
         background-color: #ff9314;
@@ -97,8 +86,6 @@ body{
 
     }
 
-
-
     30%{
         translate: -100px 0;
     }
@@ -107,19 +94,14 @@ body{
         translate: -200px -374px;
     }
 
-
-
-
     40%{
 
         translate: -290px -150px;
         background-color: #6060ff;
-
     }
     40.1%{
         background-color: #ff002d;
     }
-
 
     45%{
         translate: -150px 0;
@@ -129,51 +111,30 @@ body{
     50%{
         translate: 290px -325px;
         background-color: #ff002d;
-
     }
     50.1%{
         background-color: #ff9314;
-
     }
 
-
-
-
-
-
     60%{
-
         translate: -290px -220px;
-
         background-color: #ff9314;
-
-
     }
     60.1%{
         background-color: #ff002d;
-
-
     }
 
-
     65%{
-
         translate: 15px 0;
     }
 
     70%{
-
         translate: -156px -374px;
         background-color: #ff002d;
     }
     70.1%{
         background-color: #6060ff;
-
-
     }
-
-
-
 
     75%{
         translate: 290px -115px;
@@ -181,10 +142,7 @@ body{
     }
     75.1%{
         background-color: #ff9314;
-
-
     }
-
 
     80%{
         translate: 45px 0;
@@ -192,40 +150,27 @@ body{
     85%{
         translate: 267px -374px;
         background-color: #ff9314;
-
     }
     85.1%{
-        /*background-color: #ff002d;*/
         background-color: #6060ff;
-
     }
-
-
-
 
     90%{
         translate: -150px 0;
     }
+
     95%{
         translate: 290px -209px;
         background-color: #6060ff;
-
-
     }
-
     95.1%{
         background-color: #ff9314;
-
-
     }
-
-
 
     100%{
         translate: 0;
         background-color: #ff9314;
     }
-
 
 }
 
@@ -236,48 +181,30 @@ body{
 
     5%{
         translate: -200px 0;
-        /*border-bottom: 3px solid blanchedalmond;*/
         border-bottom: 3px solid #ff9314;
-
     }
 
     7%{
         translate: -100px 0;
-        /*border-bottom: 3px solid blanchedalmond;*/
         border-bottom: 3px solid #ff9314;
-
-
-
     }
 
     10%{
         translate: -20px 0;
-        /*border-bottom: 3px solid blanchedalmond;*/
         border-bottom: 3px solid #ff9314;
-
-
     }
-
-
 
     15%{
         translate: 20px 0;
-        /*border-bottom: 3px solid blanchedalmond;*/
         border-bottom: 3px solid #ff9314;
-
-
-
     }
     15.1%{
         border-bottom: 3px solid #6060ff;
-
     }
 
     20%{
         translate: 170px 0;
         border-bottom: 3px solid #6060ff;
-
-
     }
 
     25%{
@@ -293,22 +220,12 @@ body{
     35%{
         translate: -100px 0;
         border-bottom: 3px solid #6060ff;
-
-
-
-
     }
 
     40%{
         translate: -130px 0;
         border-bottom: 3px solid #6060ff;
-
-
-
-
-
     }
-
 
     45%{
         translate: -140px 0;
@@ -317,115 +234,70 @@ body{
 
     45.1%{
         border-bottom: 3px solid #ff002d;
-
     }
-
-
 
     50%{
         translate: -40px 0;
         border-bottom: 3px solid #ff002d;
-
-
-
     }
 
     55%{
         translate: -80px 0;
         border-bottom: 3px solid #ff002d;
-
-
     }
-
-
 
     60%{
         translate: -50px 0;
         border-bottom: 3px solid #ff002d;
-
-
     }
 
     65%{
         translate: 50px 0;
         border-bottom: 3px solid #ff002d;
-
-
-
     }
 
     70%{
         translate: 30px 0;
         border-bottom: 3px solid #ff002d;
-
-
-
     }
 
     75%{
         translate: 110px 0;
         border-bottom: 3px solid #ff002d;
-
-
-
     }
 
     80%{
         translate: 45px 0;
         border-bottom: 3px solid #ff002d;
-
-
-
     }
     80.1%{
         border-bottom: 3px solid #ff9314;
-
     }
-
 
     85%{
         translate: -125px 0;
         border-bottom: 3px solid #ff9314;
-
-
-
     }
 
     90%{
-
         translate: -145px 0;
         border-bottom: 3px solid #ff9314;
-
     }
-
     90.1%{
         border-bottom: 3px solid #6060ff;
-
     }
 
     95%{
         translate: -45px 0;
         border-bottom: 3px solid #6060ff;
-
-
-
     }
     95.1%{
         border-bottom: 3px solid #6060ff;
-
-
     }
 
     100%{
         translate: 0;
         border-bottom: 3px solid #6060ff;
-
     }
-    100.1%{
-        border-bottom: 3px solid #ff9314;
-
-
-    }
-
 }
 
