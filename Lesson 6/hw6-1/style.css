@@ -26,7 +26,6 @@ li.text-two__list:before{
 .text-four,
 .text-five{
     margin-bottom: 50px;
-    border: 1px solid blue;
 }
 
 ul.text-one__item > li.text-one__list:nth-child(even){
