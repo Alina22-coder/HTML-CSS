@@ -40,7 +40,7 @@ input:active{
 input::placeholder{
     outline: none;
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .container{
