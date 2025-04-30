@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Instagram</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<section class="instagram">
+    <div class="container">
+        <div class="instagram__container">
+            <form class="instagram__form" action="#" method="post">
+                <div class="instagram__form-content">
+                    <div class="instagram__logo">
+                        <img class="instagram__logo-img" src="images/instagram_logo.webp" alt="logo">
+                    </div>
 
+                    <div class="instagram__form-group">
+                        <div class="instagram__form-input">
+                            <input class="input__text" type="text" name="text" id="text" placeholder="Номер телефону, ім'я користувача або ел. пошта" required>
+                        </div>
+                        <div class="instagram__form-input">
+                            <input class="input__password" type="password" name="password" id="password" placeholder="Пароль" required>
+                        </div>
 
+                        <div class="instagram__form-submit">
+                            <input type="submit" name="submit" value="Увійти">
+                        </div>
+
+                        <div class="instagram__form-decor">
+                            <span class="form__decor"></span>
+                            <p class="instagram__form-decor-text">або</p>
+                            <span class="form__decor"></span>
+                        </div>
+
+                        <div class="form__social">
+                            <div class="form__social-item">
+                                <img class="form__social-img" src="images/facebook.png" alt="Facebook">
+                                <a class="form__social-link-facebook" href="https://www.facebook.com/" target="_blank">Увійти через Facebook</a>
+                            </div>
+                            <a class="form__social-link" href="#" target="_blank">Забули пароль?</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="instagram__questions">
+                <p class="instagram__questions-text">Не маєте облікового запису?</p>
+                <a class="instagram__questions-link" href="#" target="_blank">Зареєструйтеся</a>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
