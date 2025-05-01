@@ -1,0 +1,199 @@
+:root{
+    --main-color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*object-position: center;*/
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: var(--main-color);
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.island__container{
+    padding: 64px 48px;
+}
+
+.island__cards{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 64px 0;
+}
+
+.island__card{
+    width: 372px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.island__card-images{
+    height: 279px;
+}
+
+.island__card-img{
+    border-radius: 10px;
+}
+
+.island__card-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.island__card-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+
+.island__card-text{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 120%; /* 15.6px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 1230px){
+    .island__card{
+        width: 360px;
+    }
+    .island__card-images {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .island__container{
+        padding: 32px 24px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .island__card{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .island__card{
+        width: 300px;
+    }
+    .island__card-images {
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 970px){
+    .island__card{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .island__card{
+        width: 250px;
+    }
+    .island__card-images {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .island__card{
+        width: 230px;
+    }
+    .island__card-images{
+        height: 164px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .island__card{
+        width: 218px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .island__card{
+        width: 320px;
+    }
+
+    .island__card-images{
+        height: 230px;
+    }
+}
+@media screen and (max-width: 700px){
+    .island__card{
+        width: 300px;
+    }
+    .island__card-images{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .island__card{
+        width: 270px;
+    }
+    .island__card-images{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .island__card{
+        width: 250px;
+    }
+    .island__card-images{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .island__cards {
+        justify-content: center;
+    }
+    .island__card{
+        width: 343px;
+    }
+    .island__card-images{
+        height: 257px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .island__container{
+        padding: 32px 16px;
+    }
+    .island__cards{
+        gap: 40px 0;
+    }
+}
